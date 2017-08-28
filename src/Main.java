@@ -12,8 +12,8 @@ public class Main {
         proxyLawyer.lawsuit();
 
         CivilSubject civilSubject = new RealCivilSubject();
-        CivilProxyLawyer civilProxyLawer = new CivilProxyLawyer(civilSubject);
-        civilProxyLawer.civilLawsuit();
+        CivilProxyLawyer civilProxyLawyer = new CivilProxyLawyer(civilSubject);
+        civilProxyLawyer.civilLawsuit();
 
         CriminalSubject criminalSubject = new RealCriminalSubject();
         CriminalProxyLawyer criminalProxyLawyer = new CriminalProxyLawyer(criminalSubject);
