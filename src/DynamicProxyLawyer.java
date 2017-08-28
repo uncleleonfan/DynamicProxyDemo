@@ -14,7 +14,6 @@ public class DynamicProxyLawyer implements InvocationHandler {
     }
 
     /**
-     * @param proxy 所代理的真实对象
      * @param method 所代理的真实对象某个方法的Method对象
      * @param args 所代理的真实对象某个方法接受的参数
      */
